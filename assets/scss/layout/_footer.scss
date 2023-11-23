@@ -1,0 +1,8 @@
+.back-to-top {
+  border: 10px solid;
+  right: 12px;
+  bottom: 140px;
+  @include media-breakpoint-up(md) {
+    bottom: 95px;
+  }
+}
